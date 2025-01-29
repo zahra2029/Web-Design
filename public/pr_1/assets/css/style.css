@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 11px black;
+}
+table thead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table thead tr th{
+    padding: 1em 3em 1em 3em;
+}
+table tbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table tbody tr td{
+    padding: 1em 0.5em 1em 0.5em;
+}
+.description{
+    width: 18em;
+}
+.rate{
+    width: 12em;
+}
+.total{
+    width: 14em;
+}
+.total table thead tr th{
+    background-color: palegreen;
+    padding: 2px 6px 2px 6px;
+    width: 12px;
+    height: 38px;
+}
+table tbody tr td pre{
+   padding: 1em 5px 1em 2px; 
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    width: 73px;
+    height: 42px;
+    border-left: 3px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#b{
+    border: 0px;
+}
+.c{
+    
+    background-color: white;
+    width: 25px;
+    height: 42px;
+    border-left: 3px dotted;
+}
+#c{
+    border: 0px;
+}
+table tfoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+tfoot tr td{
+    padding: 1em 0.5em 1em 0.5em;
+}
+.tfoot-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0em 14.7em;
+    padding: 1em 3em 1em 0em;
+}
+.footer-right-right{
+    line-height: 89px;
+}
+.footer-right-left{
+    line-height: 60px;
+}
+.tfoote-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em 0em;
+}
+#a{
+    border-bottom: 1px solid;
+    padding-bottom: 9px;
+}
+#aa{
+    border-bottom: 0px ;
+}

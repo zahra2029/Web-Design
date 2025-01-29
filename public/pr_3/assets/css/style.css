@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "BigShouldersDisplay";
+    src: url(../../public/fonts/Big_Shoulders_Display/BigShouldersDisplay-Bold.ttf);
+}
+@font-face {
+    font-family:"LexendDeca" ;
+    src: url(../../public/fonts/Lexend_Deca/LexendDeca-Light.woff2);
+}
+
+*{
+    direction: ltr;
+}
+:root{
+    --Bright-orange: #e38826;
+    --Dark-cyan: #006970;
+    --Very-dark-cyan: #004241;
+    --fonts: #ffffff;
+    --buttons: #f2f2f2:
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    text-align: left;
+}
+.container-box{
+    padding: 3em 3em 7em 3em;
+}
+#box1{
+    background-color: var(--Bright-orange);
+}
+#box11{
+    background-color: #b67228;
+}
+#box2{
+    background-color: var(--Dark-cyan);
+}
+#box22{
+    background-color: #01393d;
+}
+#box3{
+    background-color: var(--Very-dark-cyan);
+}
+#box33{
+    background-color: #011d1c;
+}
+.container-box-icon{
+    border-radius: 50%;
+    width: 26px;
+    height: 22px;
+    font-size: 24px;
+    text-align: center;
+    padding: 4px 6px 6px 6px;
+    color: var(--fonts);
+}
+.container-box-text h2{
+    font-family: "BigShouldersDisplay";
+    color: var(--fonts);
+    font-size: 30px;
+}
+.container-box-text p{
+    font-family: "LexendDeca";
+    color: var(--fonts);
+}
+.container-box-btn1{
+    font-family: "LexendDeca";
+    background-color: var(--fonts);
+    padding: 9px 18px 9px 18px;
+    border-radius: 38px;
+    color: var(--Bright-orange);
+    border: 1px solid white;
+}
+.container-box-btn1:hover{
+    font-family: "LexendDeca";
+    background-color: var(--Bright-orange);
+    border-radius: 38px;
+    color: var(--fonts);
+    border: 1px solid white;
+    transform: scale(1.5s);
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+.container-box-btn2{
+    font-family: "LexendDeca";
+    background-color: var(--fonts);
+    padding: 9px 18px 9px 18px;
+    border-radius: 38px;
+    color: var(--Dark-cyan);
+    border: 1px solid white;
+}
+.container-box-btn2:hover{
+    font-family: "LexendDeca";
+    background-color: var(--Dark-cyan);
+    border-radius: 38px;
+    color: var(--fonts);
+    border: 1px solid white;
+    transform: scale(1.5s);
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+.container-box-btn3{
+    font-family: "LexendDeca";
+    background-color: var(--fonts);
+    padding: 9px 18px 9px 18px;
+    border-radius: 38px;
+    color: var(--Very-dark-cyan);
+    border: 1px solid white;
+}
+.container-box-btn3:hover{
+    font-family: "LexendDeca";
+    background-color: var(--Very-dark-cyan);
+    border-radius: 38px;
+    color: var(--fonts);
+    border: 1px solid white;
+    transform: scale(1.5s);
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}

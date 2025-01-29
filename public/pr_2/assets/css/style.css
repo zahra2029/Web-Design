@@ -1,0 +1,152 @@
+*{
+   direction: rtl;
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../../public/font/IRANYekanXFaNum-Bold.woff);
+}
+@font-face {
+    font-family:"DemiBold" ;
+    src: url(../../public/font/IRANYekanXFaNum-DemiBold.woff);
+}
+@font-face {
+    font-family: "Light";
+    src: url(../../public/font/IRANYekanXFaNum-Light.woff);
+}
+@font-face {
+    font-family:"Medium" ;
+    src: url(../../public/font/IRANYekanXFaNum-Medium.woff);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(../../public/font/IRANYekanXFaNum-Regular.woff);
+}
+.container_top{
+    background-color: #ecf4fd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em 11em;
+    border-radius: 10px;
+    margin-top: 2em;
+    box-shadow: 0px 0px 2px 0px #1565C0;
+}
+ul{
+    font-family:"DemiBold";
+    padding: 1em;
+    display: inline;
+}
+li{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 4em;
+}
+li a{
+    transition: 0.2 all ease-in;
+}
+li a:hover{
+    transform: scale(1.5);
+    transition: 0.2s ease-in all;
+    color: #2196F3;
+}
+img{
+    width: 70px;
+}
+.container-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 31px;
+    color: #1565C0;
+}
+.container-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 8em;
+    align-items: flex-start;
+}
+.container-center-right{
+    font-family: "Bold";
+    background-color: #ecf4fd1a;
+    border-radius: 10px;
+    margin-top: 2em;
+    box-shadow: 0px 0px 2px 0px #1565c038;
+    padding-top: 15em;
+    line-height: 200px;
+    width: 23%;
+}
+h2 a{
+    transition: 0.2s ease-in all;
+    color: #2a3554;
+}
+h2 a:hover{
+    transform: scale(1.5);
+    transition: 0.2s ease-in all;
+    color: #2196F3;
+}
+#sports{
+    font-family: "Regular";
+}
+#art{
+    font-family: "Regular";
+}
+#cooking{
+    font-family: "Regular";
+}
+.container-center-left{
+    background-color: #ecf4fd1a;
+    border-radius: 10px;
+    margin-top: 2em;
+    box-shadow: 0px 0px 2px 0px #1565c038;
+    line-height: 26px;
+    width: 69%;
+    padding-top: 4em;
+}
+.container-center-left p{
+    font-family:"Medium" ;
+}
+.container-center-left h3{
+    font-family: "Light";
+}
+.container-bottom{
+    font-family: "DemiBold";
+    background-color: #263766;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 2em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: white;
+}
+.container-icon div{
+    width: 80px;
+    height: 72px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 11px 6px 3px 6px;
+}
+.container-icon img{
+    width: 52px;
+    transition: .15s;
+    filter: grayscale(1);
+}
+.container-icon img:hover{
+    transition: .15s;
+    filter: grayscale(0);
+    cursor: pointer;
+}
