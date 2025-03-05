@@ -1,0 +1,109 @@
+@font-face {
+    font-family:"Figtree-ExtraBold" ;
+    src: url(../../pubilc/fonts/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family:"Figtree-SemiBold" ;
+    src: url(../../pubilc/fonts/Figtree-SemiBold.ttf);
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray: hsl(0, 0%, 42%);
+    --dark-Gray: hsl(0, 0%, 7%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    background-color: var(--Yellow);
+}
+.contanier{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    padding: 1em 20px 2em 20px;
+    border-radius: 15px;
+    border: 2px solid;
+    gap: 24px 1em;
+    box-shadow: 10px 11px 0px -2px var(--dark-Gray);
+}
+.contanier-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contanier-img img{
+    border-radius: 12px;
+}
+.contanier-center{
+    display: flex;
+    flex-direction: column;
+    gap: 13px 1px;
+}
+.contanier-center button{
+    font-family: "Figtree-ExtraBold";
+    color: var(--dark-Gray);
+    background-color: var(--Yellow);
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: 0px;
+}
+.contanier-center span{
+    font-family: "Figtree-SemiBold";
+    color: var(--dark-Gray);
+    font-weight: 500;
+}
+.contanier-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 23px 1px;
+}
+.contanier-footer h1{
+    font-family:"Figtree-ExtraBold" ;
+    color: var(--dark-Gray);
+    font-weight: 800;
+    font-size: 25px;
+    transition: 0.2s ease-in all;
+}
+.contanier-footer h1:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+    transition: 0.2s ease-in all;
+}
+.contanier-footer p{
+    font-family: "Figtree-SemiBold";
+    color: var(--Gray);
+    font-weight: 500;
+}
+.contanier-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px 11px;
+}
+.contanier-foot span{
+    font-family: "Figtree-ExtraBold";
+    color: var(--dark-Gray);
+    font-size: 14px;
+}
+.contanier-foot img{
+    width: 35px;
+}
+@media (max-width:375px) {
+    html{
+        font-size: 10px;
+    }
+}

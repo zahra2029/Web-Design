@@ -1,0 +1,61 @@
+*{
+    margin: auto;
+    direction: rtl;
+}
+body{
+    margin-top: 3em;
+}
+.containor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.containor-member{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 0em 8em 0em;
+    width: 45em;
+}
+.containor-member h2{
+    position: relative;
+    bottom: 3em;
+    right: 12em;
+}
+.member-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 5em;
+    top: 2em;
+}
+.member-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 5em;
+    top: 11px;
+}
+.member-btn{
+    position: relative;
+    bottom: 4em;
+    padding: 1em 6em 1em 5em;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.file{
+    position: relative;
+    right: 3em;
+}

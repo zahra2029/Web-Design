@@ -1,0 +1,137 @@
+@font-face {
+    font-family:"Karla-Bold" ;
+    src: url(../../public/font/Karla-Bold.ttf);
+}
+@font-face {
+    font-family:"Karla-Regular" ;
+    src: url(../../public/font/Karla-Regular.ttf);
+}
+:root{
+    --btn-color-text: hsl(0, 0%, 100%);
+    --body-color: hsl(148, 38%, 91%);
+    --body-color-font: hsl(187, 24%, 22%);
+    --border-color:hsl(186, 15%, 59%);
+    --btn-color: hsl(169, 82%, 27%);
+}
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    direction: ltr;
+}
+body{
+    background-color: var(--body-color);
+
+}
+.container{
+    font-family: "Karla-Regular";
+    color: var(--body-color-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.Contact{
+    background-color: var(--btn-color-text);
+    padding: 3em 3em 2em 3em;
+    border-radius: 12px;
+}
+.Contact-title{
+    font-family:"Karla-Bold" !important;
+}
+.Contact-full-name{
+    margin-top: 2em;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em 1em;
+    flex-wrap: wrap;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px 10px;
+    margin-top: 2em;*/
+}
+.Contact-full-name-label{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em 7em;*/
+}
+.label{
+    position: relative;
+    /* left: -1em; */
+    right: 12em;
+    /*display: flex;
+    flex-direction: row;
+    gap: 3px;
+    position: relative;
+    right: 4.9em;*/
+}
+.Contact-full-name-input{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em 7em;*/
+}
+.Contact-full-name-input input{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1em 9em 0em 0em;
+}
+.container span{
+    color: var(--btn-color);
+}
+.Contact-email{
+    margin-top: 2em;
+    line-height: 30px;
+}
+.Contact-email input{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1em 30.6em 0em 0em;
+}
+.Contact-Query{
+    margin-top: 2em;
+    line-height: 30px;
+}
+.Query{
+    display: flex;
+    gap: 0em 30px;
+}
+.Query-support{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 0em 8em 0em 0.5em;
+}
+.Contact-message{
+    margin-top: 2em;
+    line-height: 30px;
+}
+.Contact-message input{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 1em 30.6em 6em 0em;
+}
+.footer-check{
+    margin-top: 2em;
+    line-height: 30px;
+}
+.Contact-footer-btn{
+    margin-top: 2em;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding:1em 19.5em 1em 19.5em;
+    color: var(--btn-color-text);
+    background-color: var(--btn-color);
+}
+.Contact-footer-btn:hover{
+    cursor: pointer;
+    background-color: var(--body-color-font);
+}

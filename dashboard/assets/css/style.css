@@ -1,0 +1,150 @@
+@font-face {
+    font-family:"Figtree-SemiBold" ;
+    src: url(../../public/fonts/Figtree-SemiBold.ttf);
+}
+:root{
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red: hsl(15, 100%, 70%);
+    --Soft-blue: hsl(195, 74%, 62%);
+    --Light-red: hsl(348, 100%, 68%);
+    --Lime-green: hsl(145, 58%, 55%);
+    --Violet: hsl(264, 64%, 52%);
+    --Soft-orange: hsl(43, 84%, 65%);
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1110px;
+    width: calc(100% - 2rem*2);
+    max-height: 520px;
+    height: 100%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.875rem;
+}
+.member-info{
+    display: grid;
+    
+}
+.pri-info{
+
+}
+.person{
+
+}
+.person-text{
+
+}
+.date{
+
+}
+.Weekly{
+
+}
+.member-top{
+
+}
+.member-bottom{
+
+}
+.b1{
+    background-image: url(../../public/images/icon-study.svg);
+    
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.b2{
+    background-color: cadetblue;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.b11{
+    background-color: olivedrab;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.b22{
+    background-color:olive ;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.b111{
+    background-color:violet ;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.b222{
+    background-color: tomato;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 12px;
+}
+.w{
+    width: 13rem;
+    border-radius: 12px;
+    background-color:var(--Dark-blue);
+    height: 9rem;
+    margin-top: 3em;
+    padding-top: 1.5em;
+    color: white;
+}
+.w:hover{
+    cursor: pointer;
+    background-color: var(--Desaturated-blue);
+}
+.w-top{
+    display: flex;
+    gap: 5em;
+    flex-direction: row;
+    padding-left: 2em;
+}
+.w-top img{
+    width: 17px;
+    height: 5px;
+    position: relative;
+    top: 7px;
+}
+.w-bottom{
+    padding-left: 35px;
+    padding-top: 14px;
+}
+.b{
+    font-size: 13px;
+    padding-left: 5px;
+    color: var(--Pale-Blue);
+}

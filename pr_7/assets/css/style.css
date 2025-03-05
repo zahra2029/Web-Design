@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    text-align: center;
+    margin-top: 5em;
+}
+.container div{
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 1em 2em 1em;
+    border-radius: 10px;
+    line-height: 86px;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px 0em;
+}
+.btn_form button{
+    padding: 0px 13px 0px 10px;
+    font-size: 24px;
+}
